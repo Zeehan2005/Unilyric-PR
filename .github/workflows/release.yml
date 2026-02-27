@@ -3,7 +3,7 @@ name: 构建并发布
 on:
   push:
     tags:
-      - "v*.*.* test ooo"
+      - "v*.*.*"
 
 permissions:
   contents: write
